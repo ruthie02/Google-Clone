@@ -10,27 +10,23 @@
     </head>
 
     <body>
-        <nav> <!-- this is the navbar-->
-            <a href="#">Gmail</a>
-            <a href="#">Images</a>
-            <a href="#"><span class="material-icons-outlined">
-                apps
-                </span></a>
-            <button>Sign-in</button>
-        </nav>
+        <div class="container">
+            <div class="navbar"> <!-- this is the navbar-->
+                <a href="#">Gmail</a>
+                <a href="#">Images</a>
+                <a href="#"><img src="https://img.icons8.com/material-outlined/24/000000/circled-menu.png"/></a>
+                <button>Sign-in</button>
+            </div>
 
-        <div class="section-1"> <!-- this is the google-image and searchbox -->
-            <img src="images/Google-logo.png" class="logo">
-            
-            <div class="search"><br><br>
+            <div class="section-1"> <!-- this is the google-image and searchbox -->
+                <img src="images/Google-logo.png" class="logo">
+            </div>
+                
+            <div class="search">
                 <form>
-                    <input type="text" class="input-text">
-                    <span class="material-icons-outlined">
-                        keyboard_voice
-                    </span>
-                    <span class="material-icons-outlined">
-                        search
-                        </span>
+                    <input type="text" class="search-box">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Google_mic.svg">
+                    <span id="search-icon" class="material-icons-outlined">search</span><br><br>
                     <input type="submit" value="Google Search" class="s-button-1">
                     <input type="submit" value="I'm Feeling Lucky" class="s-button-2">
                 </form>
@@ -38,24 +34,29 @@
 
             <div class="language">
                 Google offered in:
-                <a href="#">Filipino</a>
-                <a href="#">Cebuano</a>
+                <a href="#" class="tab">Filipino</a>
+                <a href="#" class="tab">Cebuano</a>
             </div>
-        </div>
 
-        <div class="footer">
-            <div class="Country">Philippines</div>
-            <div class="top-left">
-                <a href="#">About</a>
-                <a href="#">Advertising</a>
-                <a href="#">Business</a>
-                <a href="#">How Search Works</a>
+
+            <div class="footer">
+                <div class="Country">Philippines</div>
+                <div class="footers-2">
+                        <ul class="top-left">                    
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Advertising</a></li>
+                            <li><a href="#">Business</a></li>
+                            <li><a href="#">How Search Works</a></li>
+                        </ul>
+                        <ul class="bottom-right">
+                            <li><a href="#">Privacy</a></li>
+                            <li><a href="#">Terms</a></li>
+                            <li><a href="#">Settings</a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <div class="bottom-right">
-                <a href="#">Privacy</a>
-                <a href="#">Terms</a>
-                <a href="#">Settings</a>
-            </div>
+
         </div>
 
     </body>
